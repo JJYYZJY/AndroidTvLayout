@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/px20"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tv="http://schemas.android.com/apk/res-auto"
+    tools:context="com.fb.jjyyzjy.buildlayoutdemo.MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"/>
+
+    <com.fb.jjyyzjy.buildlayoutdemo.view.buildview.MyBuildLayout
+        android:id="@+id/build_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        tv:myDividing="@dimen/px30"
+        tv:myHSize="6"
+        tv:myVSize="3"
+        tv:myItemHeight="@dimen/px151"
+        tv:myItemWidth="@dimen/px250"
+        tv:scalable="false" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/build_layout"
+        android:focusable="true"
+        android:text="@string/change"/>
+
+
+</RelativeLayout>

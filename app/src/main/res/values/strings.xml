@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BuildLayoutDemo</string>
+    <string name="title">动态布局demo</string>
+    <string name="change">change</string>
+    <attr name="myDividing" format="dimension"/>
+    <attr name="myHSize" format="integer" />
+    <attr name="myVSize" format="integer" />
+    <attr name="myItemWidth" format="dimension" />
+    <attr name="myItemHeight" format="dimension" />
+    <attr name="scalable" format="boolean"/>
+    <attr name="scale" format="float"/>
+    <declare-styleable name="MyBuildLayout">
+        <attr name="myHSize" />
+        <attr name="myVSize" />
+        <attr name="myItemWidth" />
+        <attr name="myItemHeight" />
+        <attr name="myDividing" />
+        <attr name="scalable"/>
+        <attr name="scale"/>
+    </declare-styleable>
+</resources>

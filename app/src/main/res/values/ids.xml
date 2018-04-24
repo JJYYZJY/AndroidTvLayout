@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--KEY_TAG_HAS_NEXT_FOCUS-->
+    <item name="key_tag_focus_has_next_left" type="id" />
+    <item name="key_tag_focus_has_next_right" type="id" />
+    <!--KEY_TAG_BUILD_VIEW_INDEX-->
+    <item name="key_tag_build_item_w" type="id" />
+    <item name="key_tag_build_item_h" type="id" />
+</resources>
