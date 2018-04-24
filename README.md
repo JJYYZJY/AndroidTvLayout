@@ -32,3 +32,6 @@ buildLayout.mySetLayoutSize(6,3);
 buildLayout.mySetItemSize(250),151);
 buildLayout.mySetDividing(30);
 ```
+![build_layout_use_1.png](build_layout_use_1.png)
+
+![build_layout_use_2.png](build_layout_use_2.png)
