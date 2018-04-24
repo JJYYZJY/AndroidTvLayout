@@ -35,3 +35,5 @@ buildLayout.mySetDividing(30);
 ![build_layout_use_1.png](build_layout_use_1.png)
 
 ![build_layout_use_2.png](build_layout_use_2.png)
+
+<iframe height=960 width=540 src="build_use.mp4">
